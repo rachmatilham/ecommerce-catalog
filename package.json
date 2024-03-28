@@ -1,6 +1,7 @@
 {
   "name": "ecommerce",
   "version": "0.0.0",
+  "homepage": "https://rachmatilham.github.io/ecommerce-catalog/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
