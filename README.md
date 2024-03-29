@@ -1,29 +1,28 @@
-# ecommerce
+# e-Commerce Catalog
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the final task of project-based virtual internship from Core Initiative x Rakamin Academy. This final task is required to complete the virtual internship.
 
-## Recommended IDE Setup
+## Overview
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+This page shows the data from API https://fakestoreapi.com that the categories are men's clothing and women's clothing, otherwise, the page will show that the product is unavailable. Users should be able to change the product displayed by clicking the next product button. For the friendlier user experience, loader element will be shown when waiting for response from the API.
 
-## Customize configuration
+## Screenshot
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![Page Screenshot](./public/screenshot.jpg)
 
-## Project Setup
+## Links
 
-```sh
-npm install
-```
+- Live Site URL: [Github Pages](https://rachmatilham.github.io/ecommerce-catalog/)
 
-### Compile and Hot-Reload for Development
+## Built with
 
-```sh
-npm run dev
-```
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [Vue.js](https://vuejs.org) - JS Framework
+- [Vite](https://vitejs.dev/) - Frontend build tooling
 
-### Compile and Minify for Production
+## Author
 
-```sh
-npm run build
-```
+- Github - [Rachmat Ilham Maulana](https://github.com/rachmatilham)
+- LinkedIn - [Rachmat Ilham Maulana](https://www.linkedin.com/in/rachmatilham)
