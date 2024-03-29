@@ -10,7 +10,7 @@ This page shows the data from API https://fakestoreapi.com that the categories a
 
 ![Page Screenshot](./public/screenshot.jpg)
 
-## Links
+## Link
 
 - Live Site URL: [Github Pages](https://rachmatilham.github.io/ecommerce-catalog/)
 
