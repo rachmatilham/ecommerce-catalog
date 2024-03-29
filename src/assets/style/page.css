@@ -74,11 +74,15 @@ body {
   height: 383px;
 }
 
+.caption__flex,
 .rate__flex,
 .button__flex,
 .main__flex {
   display: flex;
   justify-content: space-between;
+}
+.rate__flex {
+  align-items: center;
 }
 .main__flex {
   height: 100%;
@@ -102,15 +106,37 @@ h1.title {
   color: var(--women-primary);
 }
 
-hr {
-  margin: 12px 0;
-  opacity: 0.4;
-}
-
 p.category,
 p.rate {
   color: var(--text-secondary);
   font-size: 1.2rem;
+}
+p.rate {
+  margin-right: 4px;
+}
+
+.circle {
+  margin-left: 2px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+}
+.men .circle {
+  border: 1px solid var(--men-primary);
+}
+.women .circle {
+  border: 1px solid var(--women-primary);
+}
+.men .bg-circle {
+  background-color: var(--men-primary);
+}
+.women .bg-circle {
+  background-color: var(--women-primary);
+}
+
+hr {
+  margin: 12px 0;
+  opacity: 0.4;
 }
 
 p.desc {

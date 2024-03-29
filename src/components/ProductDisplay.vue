@@ -31,9 +31,21 @@
         <main class="main__flex">
           <article>
             <h1 class="title">{{ products.data?.title }}</h1>
-            <div class="rate__flex">
+            <div class="caption__flex">
               <p class="category">{{ products.data?.category }}</p>
-              <p class="rate">{{ products.data?.rating.rate }}/5</p>
+              <div class="rate__flex">
+                <p class="rate">{{ products.data?.rating.rate }}/5</p>
+                <div
+                  v-for="rate in rates"
+                  :key="rate"
+                  class="circle"
+                  :class="
+                    Math.round(products.data?.rating.rate) >= rate
+                      ? `bg-circle`
+                      : ``
+                  "
+                ></div>
+              </div>
             </div>
             <hr />
             <p class="desc">{{ products.data?.description }}</p>
@@ -82,6 +94,7 @@ export default {
       products: {},
       count: 0,
       loader: false,
+      rates: [1, 2, 3, 4, 5],
     };
   },
   methods: {
